@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="..\style\login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js/main.js"></script>
+</head>
+
+<body class="align background">
+
+    <div class="grid">
+
+        <form action="https://httpbin.org/post" method="POST" class="form login">
+
+            <div class="formfield">
+                <label for="loginusername">
+                    <img class="icon_center" src="img\person.svg">
+                </label>
+                <input autocomplete="username" id="loginusername" type="text" name="username" class="forminput"
+                    placeholder="Username" required>
+            </div>
+
+            <div class="formfield">
+                <label for="loginpassword" >
+                    <img class="icon_center" src="img\lock.svg">
+                </label>
+                <input id="loginpassword" type="password" name="password" class="forminput" placeholder="Password"
+                    required>
+            </div>
+
+            <div class="formfield">
+              <input type="button" value="Sign In" onclick="window.location='home.html'">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

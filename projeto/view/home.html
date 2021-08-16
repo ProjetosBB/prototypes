@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Painel </title>
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="..\style\home.css" >
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		<!-- <script src="../js/main.js"></script> -->
+	</head>
+  <body class="background">
+	<div id="principal">
+		<div id="navbar" class="flex relative rounded-xl items-center">
+			<svg xmlns="http://www.w3.org/2000/svg" class="mr-5" width="44" height="44" viewBox="0 0 44 44" fill="none">
+				<path d="M43.8477 32.2648C43.8281 32.2105 43.798 32.1605 43.7591 32.1178C43.7201 32.0751 43.6731 32.0406 43.6207 32.0162C43.5684 31.9918 43.5117 31.978 43.4539 31.9756C43.3962 31.9732 43.3386 31.9823 43.2844 32.0023L39.9375 33.2219V3.78906C39.9375 1.73281 38.275 0.0703125 36.2188 0.0703125H7.78125C5.725 0.0703125 4.0625 1.73281 4.0625 3.78906V33.2219L0.710156 32.0023C0.660937 31.9859 0.611719 31.975 0.5625 31.975C0.321875 31.975 0.125 32.1719 0.125 32.4125V35.6719C0.125 35.8523 0.239844 36.0164 0.414844 36.082L21.3984 43.7164C21.7867 43.8586 22.2078 43.8586 22.5961 43.7164L43.5852 36.0875C43.7602 36.0219 43.875 35.8578 43.875 35.6773V32.418C43.875 32.3633 43.8641 32.3141 43.8477 32.2648ZM30.5148 11.6477L24.8438 22.1258H27.9937C28.2344 22.1258 28.4312 22.3227 28.4312 22.5633V24.0453C28.4312 24.2859 28.2344 24.4828 27.9937 24.4828H23.8211V26.6156H27.9937C28.2344 26.6156 28.4312 26.8125 28.4312 27.0531V28.5352C28.4312 28.7758 28.2344 28.9727 27.9937 28.9727H23.8211V32.4453C23.8211 32.6859 23.6242 32.8828 23.3836 32.8828H20.6547C20.4141 32.8828 20.2172 32.6859 20.2172 32.4453V28.9781H16.0609C15.8203 28.9781 15.6234 28.7812 15.6234 28.5406V27.0586C15.6234 26.818 15.8203 26.6211 16.0609 26.6211H20.2172V24.4883H16.0609C15.8203 24.4883 15.6234 24.2914 15.6234 24.0508V22.5688C15.6234 22.3281 15.8203 22.1313 16.0609 22.1313H19.1781L13.4961 11.6531C13.3813 11.4453 13.4578 11.1773 13.6711 11.0625C13.7367 11.0242 13.8078 11.0078 13.8789 11.0078H16.925C17.0056 11.0083 17.0845 11.031 17.153 11.0734C17.2216 11.1159 17.277 11.1765 17.3133 11.2484L21.9453 20.4797H22.1258L26.7578 11.2484C26.8289 11.1008 26.982 11.0078 27.1461 11.0078H30.1266C30.3672 11.0078 30.5641 11.2047 30.5695 11.4398C30.5695 11.5109 30.5477 11.582 30.5148 11.6477Z" fill="#6C6B6B"/>
+			</svg>
+			<a class="no_text_decoration option px-4 text-gray text-md" href="home.html"> Painel </a>
+			<a class="no_text_decoration option px-4 text-gray text-md" href="#"> Finanças </a>
+
+			<div class="absolute right-3">
+				<div class="relative">
+					<div class="absolute -left-10 top-2">
+						<!-- ícone de configurações -->
+						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M28.9511 13.9733L25.9733 13.0844C25.7675 12.3656 25.4843 11.6712 25.1289 11.0133L26.5867 8.28445C26.6414 8.18144 26.6614 8.06354 26.6438 7.94825C26.6262 7.83296 26.5719 7.72642 26.4889 7.64445L24.3645 5.51111C24.2825 5.42815 24.1759 5.37384 24.0607 5.35622C23.9454 5.33861 23.8275 5.35864 23.7245 5.41334L21.0133 6.86223C20.349 6.48948 19.6455 6.19137 18.9156 5.97334L18.0267 3.03112C17.9891 2.92268 17.918 2.82898 17.8238 2.76349C17.7296 2.698 17.617 2.6641 17.5022 2.66667H14.4978C14.3824 2.66721 14.2701 2.70457 14.1774 2.77331C14.0847 2.84206 14.0163 2.9386 13.9822 3.04889L13.0933 5.98223C12.3574 6.1991 11.6478 6.49723 10.9778 6.87112L8.31113 5.43112C8.20812 5.37642 8.09022 5.35639 7.97493 5.374C7.85964 5.39161 7.7531 5.44593 7.67113 5.52889L5.51113 7.63556C5.42816 7.71753 5.37385 7.82407 5.35623 7.93936C5.33862 8.05466 5.35865 8.17255 5.41335 8.27556L6.85335 10.9422C6.48007 11.6094 6.18195 12.316 5.96446 13.0489L3.02224 13.9378C2.91195 13.9718 2.8154 14.0402 2.74666 14.1329C2.67791 14.2257 2.64055 14.3379 2.64001 14.4533V17.4578C2.64055 17.5732 2.67791 17.6855 2.74666 17.7782C2.8154 17.8709 2.91195 17.9393 3.02224 17.9733L5.98224 18.8622C6.2021 19.583 6.50017 20.2775 6.87113 20.9333L5.41335 23.7244C5.35865 23.8275 5.33862 23.9454 5.35623 24.0606C5.37385 24.1759 5.42816 24.2825 5.51113 24.3644L7.63557 26.4889C7.71754 26.5719 7.82408 26.6262 7.93938 26.6438C8.05467 26.6614 8.17256 26.6414 8.27557 26.5867L11.0222 25.12C11.672 25.4706 12.3574 25.7507 13.0667 25.9556L13.9556 28.9511C13.9896 29.0614 14.058 29.1579 14.1507 29.2267C14.2435 29.2954 14.3557 29.3328 14.4711 29.3333H17.4756C17.591 29.3328 17.7032 29.2954 17.796 29.2267C17.8887 29.1579 17.9571 29.0614 17.9911 28.9511L18.88 25.9467C19.5833 25.7408 20.2626 25.4607 20.9067 25.1111L23.6711 26.5867C23.7741 26.6414 23.892 26.6614 24.0073 26.6438C24.1226 26.6262 24.2292 26.5719 24.3111 26.4889L26.4356 24.3644C26.5185 24.2825 26.5729 24.1759 26.5905 24.0606C26.6081 23.9454 26.588 23.8275 26.5333 23.7244L25.0578 20.9689C25.411 20.3224 25.6941 19.64 25.9022 18.9333L28.8978 18.0444C29.0081 18.0104 29.1046 17.942 29.1734 17.8493C29.2421 17.7566 29.2795 17.6443 29.28 17.5289V14.4978C29.2853 14.3872 29.2566 14.2778 29.1978 14.184C29.139 14.0903 29.0529 14.0168 28.9511 13.9733ZM16 20.8889C15.0331 20.8889 14.0879 20.6022 13.2839 20.065C12.4799 19.5278 11.8533 18.7642 11.4833 17.8709C11.1132 16.9776 11.0164 15.9946 11.2051 15.0462C11.3937 14.0979 11.8593 13.2268 12.543 12.543C13.2268 11.8593 14.0979 11.3937 15.0462 11.2051C15.9946 11.0164 16.9776 11.1132 17.8709 11.4833C18.7642 11.8533 19.5278 12.4799 20.065 13.2839C20.6022 14.0879 20.8889 15.0331 20.8889 16C20.8889 17.2966 20.3738 18.5401 19.457 19.457C18.5401 20.3738 17.2966 20.8889 16 20.8889Z" fill="#6C6B6B"/>
+						</svg>
+					</div>
+					<!-- usuário/sair -->
+					<div class="flex flex-col border-l-2 pl-3">
+						<a class="text-md option no_text_decoration text-gray" href="#"> Usuário </a>
+						<a class="text-sm option no_text_decoration text-gray" href="#"> Sair </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<h3 class="text-gray"> Painel </h3>
+		</div>
+
+        <div class="flex justify-end w-full">
+            <button class="flex px-5 rounded-lg bg-white text-gray border-1 border-gray" data-bs-toggle="modal" data-bs-target="#exampleModal"> Adicionar </button>
+        </div>
+		<div class="flex justify-start w-full">
+            <h5 class="flex text-gray"> Contas </h5>
+        </div>
+		<div id="cartoes"></div>
+	</div>
+
+
+  
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog relative">
+			<div class=" modal-content mt-5">
+				<div class="">
+					<h5 class="modal-title" id="exampleModalLabel">Adicionar Valor </h5>
+				</div>
+				<div class="">
+					<div class="row">
+						<div class=" flex justify-center w-full">
+							<input class="bg-gray-300 w-3-4 no_border px-3 py-2 mb-3 rounded-lg" type="number" id="dinheiro" placeholder="Digite o valor..." class="form-control">
+						</div>
+						<div class="flex justify-center mb-3">
+							<button type="button" class="bg-green rounded-lg text-white py-2 w-2-6 no_border" onclick="addValor(document.getElementById('dinheiro').value)"> 
+								Adicionar 
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="absolute right-3 top-3">
+					<div class="flex justify-center rounded-full bg-red-500 p-1 items-center">
+						<!-- botão X de fechar-->
+						<svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" class="h-6 w-6 text-white cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		async function addValor(num) {
+			console.log(num);
+			let taxa = 1.3
+			let precoDolar = 5
+			let padrao = `
+			<div class="flex  bg-white rounded-xl h-auto shadow_hover mb-3 px-3 py-4">
+				<div class="flex w-full justify-between items-center">
+					<div class="">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="60" height="60" viewBox="0 0 60 60" fill="none">
+							<path d="M32.25 26.25C30.75 25.875 29.25 25.125 28.125 24C27 23.625 26.625 22.5 26.625 21.75C26.625 21 27 19.875 27.75 19.5C28.875 18.75 30 18 31.125 18.375C33.375 18.375 35.25 19.5 36.375 21L39.75 16.5C38.625 15.375 37.5 14.625 36.375 13.875C35.25 13.125 33.75 12.75 32.25 12.75V7.5H27.75V12.75C25.875 13.125 24 14.25 22.5 15.75C21 17.625 19.875 19.875 20.25 22.125C20.25 24.375 21 26.625 22.5 28.125C24.375 30 27 31.125 29.25 32.25C30.375 32.625 31.875 33.375 33 34.125C33.75 34.875 34.125 36 34.125 37.125C34.125 38.25 33.75 39.375 33 40.5C31.875 41.625 30.375 42 29.25 42C27.75 42 25.875 41.625 24.75 40.5C23.625 39.75 22.5 38.625 21.75 37.5L18 41.625C19.125 43.125 20.25 44.25 21.75 45.375C23.625 46.5 25.875 47.625 28.125 47.625V52.5H32.25V46.875C34.5 46.5 36.375 45.375 37.875 43.875C39.75 42 40.875 39 40.875 36.375C40.875 34.125 40.125 31.5 38.25 30C36.375 28.125 34.5 27 32.25 26.25ZM30 0C13.5 0 0 13.5 0 30C0 46.5 13.5 60 30 60C46.5 60 60 46.5 60 30C60 13.5 46.5 0 30 0ZM30 55.875C15.75 55.875 4.125 44.25 4.125 30C4.125 15.75 15.75 4.125 30 4.125C44.25 4.125 55.875 15.75 55.875 30C55.875 44.25 44.25 55.875 30 55.875Z" fill="#6C6B6B"/>
+						</svg>
+					</div>
+					<div class="flex w-full flex-col">
+						<div class="flex mb-3 mt-3 w-full relative justify-between">
+							<span class="flex ml-3 font-roboto">$ ${(num*taxa)/precoDolar}
+							<button class="flex absolute rounded-lg bg-gray text-white right-3 mr-5 px-5 no_border"> Depósito </button></span>
+						</div>
+						<div class="w-full">
+							<!-- linha inferior -->
+							<hr class="w-full bg m-0 block">
+						<div>
+					</div>
+				</div>
+			</div>
+			`
+			document.getElementById('cartoes').innerHTML += padrao
+		}
+	</script>
+
+</body>
+</html>
